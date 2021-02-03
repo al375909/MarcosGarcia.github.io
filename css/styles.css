@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #bd5d38;
+  --primary: #3893bd;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #3893bd;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #143542;
   text-decoration: underline;
 }
 
@@ -6075,7 +6075,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #3893bd !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9777,7 +9777,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bd5d38 !important;
+  color: #3893bd !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10111,4 +10111,31 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.papers{
+  margin-bottom: 200px;
+}
+
+.papers>ul{
+  display: flex;
+  margin: 0;
+}
+.papers>ul>li>a>img{
+  box-shadow: 2px 3px 17px 3px rgba(0, 0, 0, 0.2);
+}
+
+.papers>ul>li{
+  height: 181px;
+  width: 323px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.papers>ul>li:hover{
+  transform: scale(1.09);
+  margin-right: 12px;
+  margin-left: 12px;
+
 }
