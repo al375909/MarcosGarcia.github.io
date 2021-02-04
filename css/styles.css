@@ -10117,6 +10117,14 @@ section.resume-section .resume-section-content {
   margin-bottom: 200px;
 }
 
+
+@media (max-width: 1366px){
+  .papers>ul{
+    display: flex;
+    flex-flow: column;
+  }
+  
+}
 .papers>ul{
   display: flex;
   margin: 0;
@@ -10126,7 +10134,6 @@ section.resume-section .resume-section-content {
 }
 
 .papers>ul>li{
-  height: 181px;
   width: 323px;
   display: flex;
   flex-flow: column;
