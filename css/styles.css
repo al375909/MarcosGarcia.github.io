@@ -10128,9 +10128,12 @@ section.resume-section .resume-section-content {
 .papers>ul{
   display: flex;
   margin: 0;
+  align-items: center;
 }
 .papers>ul>li>a>img{
   box-shadow: 2px 3px 17px 3px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
 }
 
 .papers>ul>li{
@@ -10138,6 +10141,7 @@ section.resume-section .resume-section-content {
   display: flex;
   flex-flow: column;
   align-items: center;
+  margin: 1em;
 }
 
 .papers>ul>li:hover{
